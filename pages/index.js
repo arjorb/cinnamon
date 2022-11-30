@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Hero from '../components/home/Hero';
+import Navbar from '../components/ui/Navbar';
 
 export default function Home() {
   return (
@@ -9,8 +11,8 @@ export default function Home() {
         <meta name='description' content='The one-stop shop to design, develop and deploy your next digital project.' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <h1 className='text-3xl text-[#049c80] font-bold underline'>Welcome to Cinnamon</h1>
+      <Navbar />
+      <Hero />
     </div>
   );
 }
