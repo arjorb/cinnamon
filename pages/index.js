@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Hero from '../components/home/Hero';
+import Footer from '../components/ui/Footer';
 import Navbar from '../components/ui/Navbar';
 
 export default function Home() {
@@ -13,6 +14,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
+      <main className='h-40'></main>
+      <Footer />
     </div>
   );
 }

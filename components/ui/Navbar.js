@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <>
-      <div className='bg-noise bg-dark-100 text-white'>
+      <div className='fixed top-0 left-0 right-0 bg-noise bg-dark-100 text-white'>
         <div className='max-w-container mx-auto px-4 py-6 flex justify-between items-center'>
           <div>
             <Image className='w-40' src={logoWhite} alt='' />
