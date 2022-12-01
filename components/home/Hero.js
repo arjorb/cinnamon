@@ -3,7 +3,7 @@ import Container from '../ui/Container';
 const Hero = () => {
   return (
     <>
-      <div className='bg-noise bg-dark-100 bg-center h-[100vh] text-white'>
+      <div className='bg-noise bg-dark-100 bg-center h-[100vh] text-white mb-20'>
         <Container>
           <h1 className='text-[5.3rem] font-extrabold pt-48 leading-tight'>
             Results focused design & development agency.

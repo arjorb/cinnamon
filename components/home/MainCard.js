@@ -20,7 +20,7 @@ const Card = ({ imageUrl, title, content, variant }) => {
   return (
     <>
       <Container>
-        <div className='py-10'>
+        <div className='py-16'>
           <div className={buttonClass({ variant })}>
             <Image className=' hover:scale-110 duration-500' src={imageUrl} alt='' />
           </div>

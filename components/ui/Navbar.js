@@ -5,6 +5,7 @@ import logoWhite from '../../public/logo-white.svg';
 import logoDark from '../../public/logo-dark.svg';
 import Link from 'next/link';
 import Container from './Container';
+import Button from './Button';
 
 const Navbar = () => {
   return (
@@ -26,7 +27,7 @@ const Navbar = () => {
               <button className='border-2 border-white  p-2 rounded-full'>
                 <Image className='w-6' src={playWhite} alt='' />
               </button>
-              <button className=' bg-blue-800 px-10 py-3 text-white tracking-wider'>Contact us </button>
+              <Button>Contact us</Button>
             </div>
           </div>
         </Container>

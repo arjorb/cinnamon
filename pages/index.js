@@ -7,6 +7,8 @@ import Navbar from '../components/ui/Navbar';
 import optimal from '../public/optimal.png';
 import prices from '../public/prices.webp';
 import charge from '../public/charge.webp';
+import Services from '../components/home/Services';
+import Agile from '../components/home/Agile';
 export default function Home() {
   return (
     <div className=''>
@@ -17,7 +19,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
-      <main className='h-auto py-20'>
+      <main>
         <MainCard
           variant='primary'
           imageUrl={optimal}
@@ -40,6 +42,9 @@ export default function Home() {
           content='Ukulele is the number one ukulele community, where players of any level can find the most complete tabs and chords. Cinnamon offered a complete platform redesign including expansions and new features, focusing on keeping the user longer on the website.'
         />
       </main>
+      <Services />
+      <Agile />
+      <main className='h-[30vh]'></main>
       <Footer />
     </div>
   );
