@@ -10,6 +10,8 @@ import charge from '../public/charge.webp';
 import Services from '../components/home/Services';
 import Agile from '../components/home/Agile';
 import Testimonial from '../components/home/Testimonial';
+import About from '../components/home/About';
+import College from '../components/home/College';
 export default function Home() {
   return (
     <div className=''>
@@ -47,6 +49,8 @@ export default function Home() {
       <Agile />
       <Testimonial />
       {/* <main className='h-[30vh]'></main> */}
+      <About />
+      <College />
       <Footer />
     </div>
   );
