@@ -1,9 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Hero from '../components/home/Hero';
+import MainCard from '../components/home/MainCard';
 import Footer from '../components/ui/Footer';
 import Navbar from '../components/ui/Navbar';
-
+import optimal from '../public/optimal.png';
+import prices from '../public/prices.webp';
+import charge from '../public/charge.webp';
 export default function Home() {
   return (
     <div className=''>
@@ -14,7 +17,29 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
-      <main className='h-40'></main>
+      <main className='h-auto py-20'>
+        <MainCard
+          variant='primary'
+          imageUrl={optimal}
+          title='Corrily: Optimize prices to maximize revenue'
+          content='Corrily tailors your prices and discounts to the needs of different user segments in order to increase your
+          revenue. Cinnamon was tasked with creating a new visual identity for Corrily and incorporating a fresh, and
+          stunning website redesign.'
+        />
+        <MainCard
+          variant='secondary'
+          imageUrl={prices}
+          title='Fiona: Engage & Decide'
+          content='Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.'
+        />
+        <MainCard
+          variant='third'
+          imageUrl={charge}
+          title='Ukulele:
+          The largest ukulele tabs archive'
+          content='Ukulele is the number one ukulele community, where players of any level can find the most complete tabs and chords. Cinnamon offered a complete platform redesign including expansions and new features, focusing on keeping the user longer on the website.'
+        />
+      </main>
       <Footer />
     </div>
   );
