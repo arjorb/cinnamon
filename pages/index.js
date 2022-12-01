@@ -9,6 +9,7 @@ import prices from '../public/prices.webp';
 import charge from '../public/charge.webp';
 import Services from '../components/home/Services';
 import Agile from '../components/home/Agile';
+import Testimonial from '../components/home/Testimonial';
 export default function Home() {
   return (
     <div className=''>
@@ -44,7 +45,8 @@ export default function Home() {
       </main>
       <Services />
       <Agile />
-      <main className='h-[30vh]'></main>
+      <Testimonial />
+      {/* <main className='h-[30vh]'></main> */}
       <Footer />
     </div>
   );

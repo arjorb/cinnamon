@@ -5,7 +5,7 @@ import agile from '../../public/agile.webp';
 const Agile = () => {
   return (
     <>
-      <div className='relative bg-dust-200 py-48'>
+      <div className='relative bg-dust-200 py-44'>
         <Container>
           <div className='max-w-[950px] flex justify-between'>
             <div className='w-[350px]'>
