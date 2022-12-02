@@ -14,6 +14,7 @@ import About from '../components/home/About';
 import College from '../components/home/College';
 import Project from '../components/home/Project';
 import Topics from '../components/home/Topics';
+import Position from '../components/home/Position';
 export default function Home() {
   return (
     <div className=''>
@@ -53,6 +54,7 @@ export default function Home() {
       {/* <main className='h-[30vh]'></main> */}
       <About />
       <College />
+      <Position />
       <Topics />
       <Project />
       <Footer />
