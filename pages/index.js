@@ -12,6 +12,8 @@ import Agile from '../components/home/Agile';
 import Testimonial from '../components/home/Testimonial';
 import About from '../components/home/About';
 import College from '../components/home/College';
+import Project from '../components/home/Project';
+import Topics from '../components/home/Topics';
 export default function Home() {
   return (
     <div className=''>
@@ -51,6 +53,8 @@ export default function Home() {
       {/* <main className='h-[30vh]'></main> */}
       <About />
       <College />
+      <Topics />
+      <Project />
       <Footer />
     </div>
   );
